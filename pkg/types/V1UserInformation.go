@@ -1,7 +1,7 @@
 package types
 
 type V1UserInformation struct {
-	ID         string    `json:"id"`
+	ID         int64    `json:"id"` // old mock data was 'string'
 	IsActive   bool      `json:"isActive"`
 	Balance    string    `json:"balance"` // float64
 	Picture    string    `json:"picture"`

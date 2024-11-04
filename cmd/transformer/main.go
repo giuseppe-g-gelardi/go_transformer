@@ -29,7 +29,7 @@ func main() {
 }
 
 func writeRecordToFile(record v2UserInfo) error {
-	file, err := os.OpenFile("./.mock_data/output.json", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0o644)
+	file, err := os.OpenFile("./mock_data/output.json", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0o644)
 	if err != nil {
 		log.Error("Error opening file", err)
 		return errors.New("error opening file")
@@ -93,7 +93,7 @@ func validateAndMap(record v1UserInfo, i int) {
 		}
 		log.Printf("New record: %+v", data)
 		log.Infof("Record #%d processed successfully\n\n", i)
-		writeRecordToFile(*data)
+		// writeRecordToFile(*data) // uncomment this line to write to file
 
 	} else {
 		log.Error(record, "Record is invalid and will be dropped: %+v", i, record)
@@ -101,9 +101,9 @@ func validateAndMap(record v1UserInfo, i int) {
 }
 
 func dataset(size string) (string, time.Duration) {
-	small := "./.mock_data/small.json"
-	medium := "./.mock_data/medium.json"
-	large := "./.mock_data/large.json"
+	small := "./mock_data/small.json"
+	medium := "./mock_data/medium.json"
+	large := "./mock_data/large.json"
 
 	switch size {
 	case "small":

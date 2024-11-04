@@ -38,7 +38,8 @@ func (t *Mapper) MapV2Schema(v1Data v1UserInfo) (*v2UserInfo, error) {
 
 	log.Debug("Mapping V1 to V2")
     // there has to be a prettier way to do this
-	v2Data.ID = v1Data.ID
+	// v2Data.ID = v1Data.ID
+    v2Data.ID = strconv.FormatInt(v1Data.ID, 10) // need to convert for now
 	v2Data.AccountInformation.IsActive = v1Data.IsActive
 	v2Data.AccountInformation.Registered = v1Data.Registered
 	v2Data.AccountInformation.Balance = v1Data.Balance
