@@ -67,7 +67,7 @@ func MockStream() {
 		return
 	}
 
-	simulateKinesisStream(streamData, interval) // 500ms for small
+	simulateKinesisStream(streamData, interval)
 }
 
 func simulateKinesisStream(records []v1UserInfo, interval time.Duration) {
@@ -114,14 +114,5 @@ func dataset(size string) (string, time.Duration) {
 		return large, 10 * time.Millisecond
 	default:
 		return small, 500 * time.Millisecond
-	}
-}
-
-func getCwd() { // probably not needed anymore
-	dir, err := os.Getwd()
-	if err != nil {
-		log.Error("Error getting curring working directory", err)
-	} else {
-		log.Info("Current working directory is: ", dir)
 	}
 }

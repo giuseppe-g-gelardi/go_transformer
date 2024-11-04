@@ -16,8 +16,6 @@ type (
 	v2UserInfo = types.V2UserInformation
 )
 
-// FIX: zipcode is return 0 for each record
-
 var v validator.ModelValidator
 
 type Mapper struct{}
@@ -39,6 +37,7 @@ func (t *Mapper) MapV2Schema(v1Data v1UserInfo) (*v2UserInfo, error) {
 	}
 
 	log.Debug("Mapping V1 to V2")
+    // there has to be a prettier way to do this
 	v2Data.ID = v1Data.ID
 	v2Data.AccountInformation.IsActive = v1Data.IsActive
 	v2Data.AccountInformation.Registered = v1Data.Registered
@@ -79,8 +78,6 @@ func parseAddress(v1Data v1UserInfo) (string, string, string, int, error) {
 	} else {
 		log.Error("Address is not in the correct format")
 	}
-
-	// log.Infof("street: %s, city: %s, state: %s, zip: %s", street, city, state, zip)
 
 	zipInt, err := strconv.Atoi(strings.TrimSpace(zip))
 	if err != nil {
