@@ -7,6 +7,7 @@ import (
 	"os"
 	"time"
 
+	h "transformer/internal/helpers"
 	"transformer/pkg/mapper"
 	"transformer/pkg/types"
 	"transformer/pkg/validator"
@@ -25,52 +26,43 @@ var (
 )
 
 func main() {
-	MockStream()
+	path, interval := h.Dataset(string(os.Args[1]))
+
+	defer func() {
+		if r := recover(); r != nil {
+			log.Errorf("Recovered in f: %v", r)
+		}
+	}()
+
+	err := mockStream(path, interval)
+	if err != nil {
+		log.Errorf("Error in mock stream: %v", err)
+	}
 }
 
-func writeRecordToFile(record v2UserInfo) error {
-	file, err := os.OpenFile("./mock_data/output.json", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0o644)
-	if err != nil {
-		log.Error("Error opening file", err)
-		return errors.New("error opening file")
-	}
-	defer file.Close()
-
-	// recordJSON, err := json.Marshal(record)
-	recordJSON, err := json.MarshalIndent(record, "", "  ")
-	if err != nil {
-		log.Errorf("Error marshalling record: %v", err)
-		return errors.New("error marshalling record")
-	}
-
-	if _, err := file.Write(append(recordJSON, '\n')); err != nil {
-		log.Error("Error writing record to file", err)
-		return errors.New("error writing record to file")
-	}
-
-	return nil
-}
-
-func MockStream() {
-	path, interval := dataset(string(os.Args[1]))
-
+func mockStream(path string, interval time.Duration) error {
 	data, err := os.ReadFile(path)
 	if err != nil {
 		fmt.Println("Error reading file", err)
-		return
+		return errors.New("error reading file in mock stream")
 	}
 
 	var streamData []v1UserInfo
 	err = json.Unmarshal(data, &streamData)
 	if err != nil {
 		log.Error("Error unmarshalling data", err)
-		return
+		return errors.New("error unmarshalling data in mock stream")
 	}
 
-	simulateKinesisStream(streamData, interval)
+	err = simulateKinesisStream(streamData, interval)
+	if err != nil {
+		panic("Error in simulate kinesis stream")
+	}
+
+	return nil
 }
 
-func simulateKinesisStream(records []v1UserInfo, interval time.Duration) {
+func simulateKinesisStream(records []v1UserInfo, interval time.Duration) error {
 	log.Info("Validating user information")
 	// for { // this will make it loop for ever!
 	for i, record := range records {
@@ -79,6 +71,7 @@ func simulateKinesisStream(records []v1UserInfo, interval time.Duration) {
 		time.Sleep(interval)
 	}
 	// }
+	return nil
 }
 
 func validateAndMap(record v1UserInfo, i int) {
@@ -93,26 +86,9 @@ func validateAndMap(record v1UserInfo, i int) {
 		}
 		log.Printf("New record: %+v", data)
 		log.Infof("Record #%d processed successfully\n\n", i)
-		// writeRecordToFile(*data) // uncomment this line to write to file
+		h.WriteRecordToFile(*data) // uncomment this line to write to file
 
 	} else {
 		log.Error(record, "Record is invalid and will be dropped: %+v", i, record)
-	}
-}
-
-func dataset(size string) (string, time.Duration) {
-	small := "./mock_data/small.json"
-	medium := "./mock_data/medium.json"
-	large := "./mock_data/large.json"
-
-	switch size {
-	case "small":
-		return small, 500 * time.Millisecond
-	case "medium":
-		return medium, 100 * time.Millisecond
-	case "large":
-		return large, 10 * time.Millisecond
-	default:
-		return small, 500 * time.Millisecond
 	}
 }
