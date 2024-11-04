@@ -1,0 +1,570 @@
+[
+  {
+    "id": "a47b663d-5517-48c6-a16f-ae4c80ec7380",
+    "isActive": false,
+    "balance": "$2,142.76",
+    "picture": "http://placehold.it/32x32",
+    "age": 32,
+    "eyeColor": "brown",
+    "name": "Beatriz Velazquez",
+    "gender": "female",
+    "company": "COLLAIRE",
+    "email": "beatrizvelazquez@collaire.com",
+    "phone": "+1 (810) 557-2875",
+    "address": "774 Richmond Street, Lund, New Mexico, 6801",
+    "about": "Ipsum do eu ea consectetur irure reprehenderit anim aute sunt cillum officia aliquip aliquip cupidatat. Nulla dolor in dolore consequat cupidatat duis labore est tempor mollit irure veniam culpa. Excepteur incididunt laborum ut magna amet nisi est culpa voluptate. Adipisicing mollit commodo eiusmod qui dolore duis dolore.\r\n",
+    "registered": "2016-10-13T08:57:05 +04:00",
+    "latitude": -50.086094,
+    "longitude": 43.65677,
+    "tags": ["duis", "commodo", "Lorem", "elit", "non", "velit", "officia"],
+    "friends": [
+      {
+        "id": "9179afea-5eb8-41a3-8baf-8a5cfb1c42e9",
+        "name": "Wilma Bartlett"
+      },
+      {
+        "id": "f3edc9e9-4d18-4e78-af31-dd7371ce8b46",
+        "name": "David Reese"
+      },
+      {
+        "id": "776905bb-e8c9-4ad2-97ff-1dbcd1556427",
+        "name": "Rogers Todd"
+      }
+    ]
+  },
+  {
+    "id": "b52913e2-445d-490c-9185-b531ce03c525",
+    "isActive": false,
+    "balance": "$3,475.54",
+    "picture": "http://placehold.it/32x32",
+    "age": 24,
+    "eyeColor": "brown",
+    "name": "Natalie Mccarthy",
+    "gender": "female",
+    "company": "HOMETOWN",
+    "email": "nataliemccarthy@hometown.com",
+    "phone": "+1 (806) 600-2772",
+    "address": "164 Leonora Court, Garnet, Ohio, 5625",
+    "about": "Fugiat dolor non ea labore excepteur labore commodo qui labore nostrud amet amet. Pariatur incididunt Lorem pariatur qui ut nisi anim aliquip consectetur consectetur pariatur pariatur sint. Minim dolor labore consequat ut ea minim proident. Fugiat proident amet eiusmod irure ea voluptate aliqua irure nulla mollit ut. Aliquip consequat eiusmod nulla fugiat culpa officia et. Mollit reprehenderit aute nulla reprehenderit ut id deserunt deserunt excepteur dolore nisi.\r\n",
+    "registered": "2022-05-31T08:16:59 +04:00",
+    "latitude": -15.346224,
+    "longitude": 124.46572,
+    "tags": [
+      "reprehenderit",
+      "non",
+      "culpa",
+      "enim",
+      "laboris",
+      "cillum",
+      "Lorem"
+    ],
+    "friends": [
+      {
+        "id": "4f8d4a64-bc84-461d-bae8-d8133c6cefaf",
+        "name": "Vickie Dyer"
+      },
+      {
+        "id": "c0571e18-07a4-4ea0-b59e-4c809b2b7c1f",
+        "name": "Elaine Waller"
+      },
+      {
+        "id": "e7ea371e-daaa-43fe-be17-c88bf38ff284",
+        "name": "Cooper Noel"
+      }
+    ]
+  },
+  {
+    "id": "ed22ccbd-27f4-4408-a8d6-e6e673dfbc8c",
+    "isActive": true,
+    "balance": "$3,723.72",
+    "picture": "http://placehold.it/32x32",
+    "age": 22,
+    "eyeColor": "green",
+    "name": "Amanda Huber",
+    "gender": "female",
+    "company": "FLYBOYZ",
+    "email": "amandahuber@flyboyz.com",
+    "phone": "+1 (894) 582-3831",
+    "address": "409 Furman Avenue, Calpine, Arkansas, 2579",
+    "about": "Sunt anim tempor aliquip amet consectetur dolore ullamco dolor deserunt. Velit enim nulla enim eiusmod ipsum labore exercitation irure dolore sit ipsum in dolor culpa. Lorem sunt ullamco commodo officia. Minim proident sunt aute incididunt adipisicing occaecat ullamco non consequat aute nulla.\r\n",
+    "registered": "2020-02-28T09:47:16 +05:00",
+    "latitude": -69.865108,
+    "longitude": -93.677746,
+    "tags": ["aute", "anim", "quis", "aute", "eiusmod", "ad", "ex"],
+    "friends": [
+      {
+        "id": "d6fc69a3-27d6-4ea5-ab48-44b8e2804a1e",
+        "name": "Yesenia Head"
+      },
+      {
+        "id": "baa0eaf1-f3aa-4fd0-a545-c9322bcbf9b7",
+        "name": "Hester Parsons"
+      },
+      {
+        "id": "56e0aa37-ceee-4254-ab80-782c0ed97f20",
+        "name": "Key Castaneda"
+      }
+    ]
+  },
+  {
+    "id": "bc172f8d-03e6-4a54-909e-c15c3580b321",
+    "isActive": false,
+    "balance": "$3,406.85",
+    "picture": "http://placehold.it/32x32",
+    "age": 25,
+    "eyeColor": "green",
+    "name": "Latoya Chaney",
+    "gender": "female",
+    "company": "ELENTRIX",
+    "email": "latoyachaney@elentrix.com",
+    "phone": "+1 (984) 589-2876",
+    "address": "111 Macdougal Street, Hegins, Northern Mariana Islands, 6281",
+    "about": "Laboris sit ut id dolor eiusmod et occaecat irure tempor et velit quis ea. Fugiat voluptate laboris ut ullamco amet cillum exercitation proident velit pariatur elit fugiat consectetur deserunt. Fugiat ea magna adipisicing ex qui veniam.\r\n",
+    "registered": "2023-01-22T04:26:12 +05:00",
+    "latitude": -76.285288,
+    "longitude": -99.114884,
+    "tags": ["dolor", "nisi", "eu", "mollit", "enim", "proident", "eu"],
+    "friends": [
+      {
+        "id": "5d3fa1bf-1550-448e-9594-ebc4f0ba0e91",
+        "name": "Krystal Barrett"
+      },
+      {
+        "id": "b11bd705-a742-48e1-8937-f4b4bf193aaf",
+        "name": "Lessie Underwood"
+      },
+      {
+        "id": "3946f87a-5be0-41ef-865e-d084efaf0ec0",
+        "name": "Tracy Pickett"
+      }
+    ]
+  },
+  {
+    "id": "e8f1db86-0baf-4936-80a4-cc4b6be318e8",
+    "isActive": false,
+    "balance": "$1,651.26",
+    "picture": "http://placehold.it/32x32",
+    "age": 24,
+    "eyeColor": "blue",
+    "name": "Mcfarland Montgomery",
+    "gender": "male",
+    "company": "TOURMANIA",
+    "email": "mcfarlandmontgomery@tourmania.com",
+    "phone": "+1 (954) 479-3745",
+    "address": "816 Hornell Loop, Rivera, Iowa, 5303",
+    "about": "Enim ullamco aute sit ipsum do officia commodo duis minim deserunt ut esse labore. Aliqua minim aliqua occaecat reprehenderit do mollit amet enim voluptate excepteur reprehenderit excepteur. Ipsum cillum mollit ut sunt aute magna ad id nulla enim occaecat.\r\n",
+    "registered": "2015-07-09T08:50:21 +04:00",
+    "latitude": -66.687374,
+    "longitude": -169.273303,
+    "tags": ["qui", "cupidatat", "quis", "mollit", "eu", "irure", "do"],
+    "friends": [
+      {
+        "id": "1739a405-2d6e-464d-82ff-f755b4dd0bfb",
+        "name": "Antonia Holder"
+      },
+      {
+        "id": "f349e803-0eae-4a5c-927f-0a89461e7ef1",
+        "name": "Christa Hess"
+      },
+      {
+        "id": "45eb9553-1ca6-45da-a4b9-108d90eafc7a",
+        "name": "Lucas Horton"
+      }
+    ]
+  },
+  {
+    "id": "1bb71fe2-3798-4a06-b0f5-d39e6d3241cc",
+    "isActive": false,
+    "balance": "$1,325.91",
+    "picture": "http://placehold.it/32x32",
+    "age": 35,
+    "eyeColor": "brown",
+    "name": "Linda Farmer",
+    "gender": "female",
+    "company": "EXOSPACE",
+    "email": "lindafarmer@exospace.com",
+    "phone": "+1 (833) 522-3544",
+    "address": "640 Lott Street, Corinne, Oregon, 5478",
+    "about": "Enim eiusmod elit veniam cillum quis ut. Nulla commodo amet amet irure dolor excepteur exercitation sunt. Lorem id sit consectetur nostrud ad deserunt sit consectetur velit laboris consectetur non nulla cupidatat. Sunt cillum id ea cillum laborum fugiat. Ipsum excepteur reprehenderit nostrud in proident deserunt quis. Esse id in ea occaecat irure qui adipisicing esse.\r\n",
+    "registered": "2024-06-19T02:04:13 +04:00",
+    "latitude": -9.459912,
+    "longitude": 124.855008,
+    "tags": [
+      "dolore",
+      "reprehenderit",
+      "ipsum",
+      "veniam",
+      "cupidatat",
+      "ad",
+      "sit"
+    ],
+    "friends": [
+      {
+        "id": "17e8df5d-7c1f-495e-b928-39ff8d09f7e5",
+        "name": "Salazar Cox"
+      },
+      {
+        "id": "1ab3e2db-5a2b-4e65-87a2-28fb6fe209f7",
+        "name": "Frye Dillon"
+      },
+      {
+        "id": "3e46a706-a95e-4b49-b6af-014ab706fc00",
+        "name": "Noemi Turner"
+      }
+    ]
+  },
+  {
+    "id": "92fc7243-1cbb-4c95-80e4-1db0b598d6d9",
+    "isActive": true,
+    "balance": "$3,258.49",
+    "picture": "http://placehold.it/32x32",
+    "age": 32,
+    "eyeColor": "brown",
+    "name": "Angelia Gates",
+    "gender": "female",
+    "company": "NIMON",
+    "email": "angeliagates@nimon.com",
+    "phone": "+1 (918) 494-2402",
+    "address": "673 Coles Street, Williams, Kentucky, 333",
+    "about": "Et nulla excepteur eiusmod aliquip proident cillum reprehenderit deserunt commodo laboris. Consequat qui laborum incididunt consectetur cillum excepteur anim cillum laborum sit enim excepteur. Ea reprehenderit nulla mollit elit nostrud aliquip Lorem consectetur Lorem laboris magna reprehenderit. Qui laboris cupidatat cupidatat esse magna. Cillum sit ipsum aute proident ut aliquip.\r\n",
+    "registered": "2014-12-18T08:50:41 +05:00",
+    "latitude": -72.682703,
+    "longitude": -70.544522,
+    "tags": ["duis", "in", "ipsum", "elit", "eu", "irure", "qui"],
+    "friends": [
+      {
+        "id": "097d95c8-df9f-47b0-ab15-a8016da740b9",
+        "name": "Faulkner Haynes"
+      },
+      {
+        "id": "a8a8aae4-48e8-4ed9-a987-ddb38a6f1be2",
+        "name": "Imogene Cruz"
+      },
+      {
+        "id": "cb0695a5-9f8d-44d4-b5fe-1aaeb1e1c322",
+        "name": "Vazquez Lynch"
+      }
+    ]
+  },
+  {
+    "id": "551a78a8-da48-4423-8827-c0e49f7fdb3c",
+    "isActive": true,
+    "balance": "$3,383.85",
+    "picture": "http://placehold.it/32x32",
+    "age": 32,
+    "eyeColor": "blue",
+    "name": "Callahan Mckee",
+    "gender": "male",
+    "company": "GENMOM",
+    "email": "callahanmckee@genmom.com",
+    "phone": "+1 (999) 535-2944",
+    "address": "427 Mill Lane, Choctaw, Wisconsin, 8649",
+    "about": "Labore nostrud excepteur irure aliqua eu velit est. Quis nostrud non labore sit cupidatat. Eiusmod magna non Lorem eiusmod exercitation. Voluptate qui officia ex minim ut laboris excepteur ipsum nostrud incididunt tempor fugiat consequat. Aliquip exercitation consectetur cillum reprehenderit eiusmod ea est. Exercitation fugiat ad anim sit eu Lorem nostrud. Deserunt dolore quis consequat est elit nisi Lorem nulla aliquip nostrud id.\r\n",
+    "registered": "2022-05-12T03:08:07 +04:00",
+    "latitude": 78.447561,
+    "longitude": 100.03239,
+    "tags": [
+      "consectetur",
+      "ipsum",
+      "id",
+      "occaecat",
+      "veniam",
+      "non",
+      "exercitation"
+    ],
+    "friends": [
+      {
+        "id": "3d47a8b5-3110-4e39-83ca-322241f73988",
+        "name": "Luann Horne"
+      },
+      {
+        "id": "b6ed4b31-4e34-4902-b5e4-fff8fe09a9f7",
+        "name": "Nina Shaw"
+      },
+      {
+        "id": "137b2348-ec78-4079-80da-ca1546cef693",
+        "name": "Salinas Nguyen"
+      }
+    ]
+  },
+  {
+    "id": "e87f06c5-390b-4fce-8773-31189f4d36cf",
+    "isActive": false,
+    "balance": "$3,441.55",
+    "picture": "http://placehold.it/32x32",
+    "age": 31,
+    "eyeColor": "blue",
+    "name": "Drake Levy",
+    "gender": "male",
+    "company": "EPLODE",
+    "email": "drakelevy@eplode.com",
+    "phone": "+1 (873) 464-3990",
+    "address": "346 Nassau Street, Finzel, American Samoa, 7548",
+    "about": "Labore velit do adipisicing officia labore laborum ex sint fugiat enim cillum consectetur. Officia commodo id dolore exercitation fugiat exercitation pariatur. Fugiat dolor proident in elit sit consectetur excepteur ad velit in. Sint quis proident eu eu adipisicing et eiusmod minim elit laboris excepteur velit. Laborum amet nostrud sint aliquip elit anim fugiat dolor occaecat. Deserunt laboris occaecat occaecat fugiat mollit enim in cupidatat laborum est enim.\r\n",
+    "registered": "2021-01-02T12:05:01 +05:00",
+    "latitude": -7.070142,
+    "longitude": 46.40553,
+    "tags": ["magna", "dolore", "in", "ea", "laborum", "esse", "mollit"],
+    "friends": [
+      {
+        "id": "0ba175fa-8b1f-4812-87ff-1832313e55fd",
+        "name": "Brenda Branch"
+      },
+      {
+        "id": "f844de86-581c-458b-96c5-6f09cc3b497c",
+        "name": "Mamie Adkins"
+      },
+      {
+        "id": "eb8dc25a-620b-4654-8332-d43fdf281e6f",
+        "name": "Sasha Joyner"
+      }
+    ]
+  },
+  {
+    "id": "b98cf3c0-5723-4e04-bd09-3cfe5d69ea08",
+    "isActive": true,
+    "balance": "$3,499.54",
+    "picture": "http://placehold.it/32x32",
+    "age": 28,
+    "eyeColor": "blue",
+    "name": "Sheri Larson",
+    "gender": "female",
+    "company": "PERKLE",
+    "email": "sherilarson@perkle.com",
+    "phone": "+1 (995) 482-3788",
+    "address": "846 Doughty Street, Sperryville, Maine, 6489",
+    "about": "Non excepteur nulla id nisi tempor velit. Veniam dolor tempor anim commodo minim cupidatat consequat minim adipisicing irure. Culpa aliquip aliqua ea elit adipisicing deserunt labore ut qui labore eu ex. Cillum nisi do qui adipisicing aliquip reprehenderit tempor eu sint. Eu ex mollit ea ullamco occaecat anim incididunt consequat irure aliqua aliquip. Proident in pariatur enim exercitation veniam irure elit duis officia ut officia esse pariatur anim.\r\n",
+    "registered": "2017-03-19T09:23:03 +04:00",
+    "latitude": -88.665993,
+    "longitude": 55.574063,
+    "tags": ["eu", "duis", "sunt", "non", "minim", "qui", "aute"],
+    "friends": [
+      {
+        "id": "f566e90e-85cc-41c6-ae88-4ea213c5a6ce",
+        "name": "Anna Nolan"
+      },
+      {
+        "id": "5988f864-0c11-4803-ab37-d1217a6cb656",
+        "name": "Clark Sullivan"
+      },
+      {
+        "id": "a8053e3b-dd53-4042-a8fc-d81c3e403a93",
+        "name": "Savage Durham"
+      }
+    ]
+  },
+  {
+    "id": "e6f88925-5994-4fc4-946a-ad4493788f8b",
+    "isActive": true,
+    "balance": "$2,905.93",
+    "picture": "http://placehold.it/32x32",
+    "age": 40,
+    "eyeColor": "brown",
+    "name": "Madelyn Norris",
+    "gender": "female",
+    "company": "BLEEKO",
+    "email": "madelynnorris@bleeko.com",
+    "phone": "+1 (844) 444-2755",
+    "address": "761 Norman Avenue, Neahkahnie, Idaho, 9692",
+    "about": "Ea dolore laboris tempor dolor ea qui consequat anim ipsum id exercitation sit cupidatat. Quis non consequat id incididunt. Eu elit commodo id minim officia est exercitation minim nostrud. Id sint nisi aliquip magna mollit voluptate. Est sit sit aliqua dolore voluptate ullamco consequat aliqua officia minim pariatur ea. Velit mollit est laborum officia aute.\r\n",
+    "registered": "2017-10-19T04:58:46 +04:00",
+    "latitude": -24.816173,
+    "longitude": 87.728624,
+    "tags": [
+      "enim",
+      "veniam",
+      "adipisicing",
+      "minim",
+      "consequat",
+      "pariatur",
+      "pariatur"
+    ],
+    "friends": [
+      {
+        "id": "63467944-a092-4782-8803-853d721d35fe",
+        "name": "Lacey Carey"
+      },
+      {
+        "id": "119aeacb-4898-4e13-ab57-1acb1b3a765e",
+        "name": "Alvarado Chan"
+      },
+      {
+        "id": "e37a3fc8-7c54-4091-ae8f-0ec99430f381",
+        "name": "Hurst George"
+      }
+    ]
+  },
+  {
+    "id": "ddb8336c-e3d5-4472-9ae9-3460c168f0f9",
+    "isActive": true,
+    "balance": "$1,061.00",
+    "picture": "http://placehold.it/32x32",
+    "age": 29,
+    "eyeColor": "brown",
+    "name": "Cara Perez",
+    "gender": "female",
+    "company": "ECLIPSENT",
+    "email": "caraperez@eclipsent.com",
+    "phone": "+1 (990) 577-3049",
+    "address": "801 Rose Street, Beaverdale, Nevada, 1002",
+    "about": "Proident dolor nulla incididunt culpa cupidatat id sunt nisi proident commodo nulla quis. Magna anim aute duis eiusmod in sint dolore eiusmod. Dolor enim duis nostrud nulla. Deserunt proident nulla proident nisi ipsum. Enim consequat do ex veniam.\r\n",
+    "registered": "2019-03-07T03:29:09 +05:00",
+    "latitude": 63.623694,
+    "longitude": 171.645563,
+    "tags": ["adipisicing", "in", "irure", "est", "eu", "velit", "qui"],
+    "friends": [
+      {
+        "id": "635dbd0f-2bb9-4f8a-93e2-edf81085b94a",
+        "name": "Maude Hester"
+      },
+      {
+        "id": "ca6f8554-969a-47a5-8d63-73833d5f1168",
+        "name": "Thornton Wall"
+      },
+      {
+        "id": "de3faca1-bd29-4c00-b658-dfabfa699ebb",
+        "name": "Darcy Boyle"
+      }
+    ]
+  },
+  {
+    "id": "1d9ac005-8a89-438e-9951-a59c65ec9044",
+    "isActive": false,
+    "balance": "$1,357.90",
+    "picture": "http://placehold.it/32x32",
+    "age": 38,
+    "eyeColor": "blue",
+    "name": "Mcdaniel Salinas",
+    "gender": "male",
+    "company": "AUTOGRATE",
+    "email": "mcdanielsalinas@autograte.com",
+    "phone": "+1 (887) 535-2545",
+    "address": "506 Seigel Court, Westboro, Virginia, 6826",
+    "about": "Consequat ex aliquip sint velit minim id adipisicing occaecat nostrud dolor amet. Amet cupidatat fugiat labore incididunt aliqua exercitation elit. Enim aliquip magna officia quis proident dolor elit officia et dolor sit id id. Sint fugiat commodo ut fugiat eu.\r\n",
+    "registered": "2019-08-28T04:17:56 +04:00",
+    "latitude": 56.14561,
+    "longitude": -92.476528,
+    "tags": ["do", "nulla", "adipisicing", "duis", "velit", "consequat", "et"],
+    "friends": [
+      {
+        "id": "cdd3d893-23df-4e15-951a-992a3f307437",
+        "name": "Lela Valdez"
+      },
+      {
+        "id": "00ab4441-540a-409e-bdcb-3d671457d8ca",
+        "name": "Day Graves"
+      },
+      {
+        "id": "52ce4291-7a0a-4a33-aaee-2847c975ce66",
+        "name": "Joseph Ingram"
+      }
+    ]
+  },
+  {
+    "id": "6883d37f-5450-4fe8-9a17-5df28493d85f",
+    "isActive": false,
+    "balance": "$3,435.30",
+    "picture": "http://placehold.it/32x32",
+    "age": 22,
+    "eyeColor": "green",
+    "name": "Little Solomon",
+    "gender": "male",
+    "company": "SHADEASE",
+    "email": "littlesolomon@shadease.com",
+    "phone": "+1 (923) 594-2400",
+    "address": "650 Wortman Avenue, Dawn, Vermont, 8306",
+    "about": "Eiusmod incididunt cupidatat veniam aliqua duis adipisicing. Est cillum ex eu deserunt commodo do eu aliqua. Velit qui ipsum labore adipisicing sunt pariatur. Nostrud laboris officia ut culpa adipisicing mollit et ipsum Lorem commodo culpa nisi.\r\n",
+    "registered": "2022-07-07T02:25:13 +04:00",
+    "latitude": 76.108383,
+    "longitude": 35.020111,
+    "tags": [
+      "exercitation",
+      "amet",
+      "cupidatat",
+      "nostrud",
+      "dolore",
+      "ad",
+      "cupidatat"
+    ],
+    "friends": [
+      {
+        "id": "adbadc2b-02b5-45f8-916f-8f17deceb529",
+        "name": "Young Glass"
+      },
+      {
+        "id": "6addc2c8-0cac-4be4-be56-922bfc74db66",
+        "name": "Crosby Chandler"
+      },
+      {
+        "id": "652506e3-a745-456e-b769-9c019c07c1d6",
+        "name": "Selena Harrington"
+      }
+    ]
+  },
+  {
+    "id": "28c59027-0cd1-48b3-9962-c0d6dfe031ad",
+    "isActive": true,
+    "balance": "$1,040.79",
+    "picture": "http://placehold.it/32x32",
+    "age": 28,
+    "eyeColor": "brown",
+    "name": "Lucinda Cooper",
+    "gender": "female",
+    "company": "APEXIA",
+    "email": "lucindacooper@apexia.com",
+    "phone": "+1 (885) 552-2280",
+    "address": "614 Baycliff Terrace, Weedville, Connecticut, 9521",
+    "about": "Est occaecat voluptate veniam ullamco aute incididunt do aute. Do veniam anim irure aliqua sit eu elit ullamco dolor eiusmod commodo enim. Aliquip et aute exercitation enim aliqua est commodo commodo tempor exercitation culpa sit magna aute. Do do exercitation cillum magna enim occaecat sit eu irure officia.\r\n",
+    "registered": "2023-11-29T04:49:21 +05:00",
+    "latitude": 35.442771,
+    "longitude": 52.72664,
+    "tags": ["qui", "eu", "et", "nisi", "mollit", "commodo", "minim"],
+    "friends": [
+      {
+        "id": "a52ee54d-f6ef-474f-ba57-79d6a6ad099d",
+        "name": "Beth Cohen"
+      },
+      {
+        "id": "ba5b0e6d-51af-4bf9-a2bd-0d08f9fc9d95",
+        "name": "Rosalinda Orr"
+      },
+      {
+        "id": "7caeed38-536e-4351-8357-51282ddb340e",
+        "name": "Daphne Lamb"
+      }
+    ]
+  },
+  {
+    "id": "908e38be-770d-4d67-bae0-aabbd79c1241",
+    "isActive": true,
+    "balance": "$3,521.94",
+    "picture": "http://placehold.it/32x32",
+    "age": 29,
+    "eyeColor": "brown",
+    "name": "Potter Ruiz",
+    "gender": "male",
+    "company": "MIXERS",
+    "email": "potterruiz@mixers.com",
+    "phone": "+1 (941) 561-2776",
+    "address": "197 Calder Place, Tuskahoma, Delaware, 6441",
+    "about": "Aliqua nostrud ad ipsum non id cupidatat culpa fugiat aliqua et sint. Nostrud qui aliquip sint ut eu id duis ex proident. Est veniam eiusmod sunt laborum non Lorem in enim mollit. Incididunt aliqua ad sint mollit minim ea labore enim pariatur pariatur voluptate in nisi. Consequat nisi velit deserunt culpa minim consectetur id deserunt.\r\n",
+    "registered": "2022-07-25T02:04:55 +04:00",
+    "latitude": -60.431108,
+    "longitude": -23.073044,
+    "tags": ["veniam", "id", "fugiat", "enim", "commodo", "nulla", "cupidatat"],
+    "friends": [
+      {
+        "id": "c9defb8b-41ea-413c-9db8-5e89a6c97c0a",
+        "name": "Rosario Craft"
+      },
+      {
+        "id": "8d8ae737-16e9-4917-ba86-6386fd416ea2",
+        "name": "Mallory Osborne"
+      },
+      {
+        "id": "983a44e8-c231-4177-9cf8-4a80e738c7a6",
+        "name": "Elinor Hodge"
+      }
+    ]
+  }
+]
